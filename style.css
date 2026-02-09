@@ -46,3 +46,30 @@ button{
 #result{
   font-size: 25px;
 }
+@media (max-width: 480px) {
+  .container {
+    width: 90%;
+    height: auto;
+    padding: 20px 10px;
+    gap: 20px;
+  }
+
+button {
+    width: 100%;
+    font-size: 16px;
+  }
+
+input {
+    width: 100%;
+  }
+
+#result {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+.container {
+    width: 80%;
+  }
+}
